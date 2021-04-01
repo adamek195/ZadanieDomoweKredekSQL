@@ -187,6 +187,7 @@ namespace AdamBednorzZadanieDomowe3
         {
             //tworzymy okno
             FormCanteen canteen = new FormCanteen();
+            //pokazujemy okno
             canteen.Show();
         }
     }

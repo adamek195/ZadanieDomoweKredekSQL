@@ -14,7 +14,7 @@ namespace AdamBednorzZadanieDomowe3.Repositories
 
         protected Repository()
         {
-            //Inicjalizacja połaczenia z bazą danych
+            //inicjalizacja połączenia z bazą danych
             Connection = new SqlConnection(Properties.Resources.ConnectionString);
         }
     }
